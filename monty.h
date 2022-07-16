@@ -77,4 +77,11 @@ int _size_line(char *line);
 char delete_jump(char *line);
 void _swap(stack_t **stack, __attribute__((unused)) unsigned int num_line);
 void _add(stack_t **stack, __attribute__((unused)) unsigned int num_line);
+void _pint(stack_t **stack, unsigned int num_line);
+void _pop(stack_t **stack, unsigned int num_line);
+void (*func(char *tokens))(stack_t **stack, unsigned int num_line);
+int main(__attribute__((unused)) int argc, char **argv);
+void _pall(stack_t **stack, unsigned int num_line);
+void _push(stack_t **stack, unsigned int num_line);
 
+#endif

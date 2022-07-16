@@ -43,4 +43,6 @@ int main(int argc, char **argv)
 	}
 	free_l(&stack);
 	free(global.line);
-
+	fclose(global.fil);
+	return (0);
+}
